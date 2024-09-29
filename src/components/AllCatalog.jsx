@@ -22,7 +22,14 @@ function AllCatalog() {
         <div className="max-w-7xl mx-auto p-4 flex flex-col items-center gap-3">
             <h1>Produk Lain Dari Kami</h1>
             <SearchCatalog onSearch={handleSearch} />
-            <CatalogList products={filteredProducts} />
+            
+            {filteredProducts.length > 0 ? (
+                <CatalogList products={filteredProducts} />
+            ) : (
+                <p className="text-red-500 font-semibold mt-4">
+                    Item yang kamu cari tidak ada.
+                </p>
+            )}
         </div>
     );
 }
