@@ -6,7 +6,7 @@ const items_store = [
     price: "Rp 100.000",
     imageUrl:
       "https://www.bu.edu/globalprograms/files/2015/05/banner-placeholder.png",
-    buttonlink: "https://www.google.com",
+    buttonlink: "https://wa.me/6281327427726?text=Hi!%20Apakah%20produk%201%20masih%20ada?",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const items_store = [
     price: "Rp 50.000",
     imageUrl:
       "https://www.bu.edu/globalprograms/files/2015/05/banner-placeholder.png",
-    buttonlink: "https://www.google.com",
+    buttonlink: "https://wa.me/6281327427726?text=Hi!%20Apakah%20produk%202%20masih%20ada?",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const items_store = [
     price: "Rp 100.000",
     imageUrl:
       "https://www.bu.edu/globalprograms/files/2015/05/banner-placeholder.png",
-    buttonlink: "https://www.google.com",
+    buttonlink: "https://wa.me/6281327427726?text=Hi!%20Apakah%20produk%203%20masih%20ada?",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const items_store = [
     price: "Rp 200.000",
     imageUrl:
       "https://www.bu.edu/globalprograms/files/2015/05/banner-placeholder.png",
-    buttonlink: "https://www.google.com",
+    buttonlink: "https://wa.me/6281327427726?text=Hi!%20Apakah%20produk%204%20masih%20ada?",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const items_store = [
     price: "Rp 200.000",
     imageUrl:
       "https://www.bu.edu/globalprograms/files/2015/05/banner-placeholder.png",
-    buttonlink: "https://www.google.com",
+    buttonlink: "https://wa.me/6281327427726?text=Hi!%20Apakah%20produk%205%20masih%20ada?",
   },
 ];
 

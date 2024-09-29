@@ -7,11 +7,11 @@ function Contact() {
             <div className="upper_contact flex flex-col gap-2">
                 <div className="telephone">
                     <h2>Nomor Telelepon</h2>
-                    <p>082xxxxxxx</p>
+                    <p>+62 813-2742-7726</p>
                 </div>
                 <div>
                     <h2>Alamat</h2>
-                    <p>Jl. xxxxx</p>
+                    <p>Jl. Balirejo UH2 No.549, RT17, RW5, Mulamuju, Umbulharjo, Yogyakarta, Daerah Istimewa Yogyakarta, 55165</p>
                 </div>
                 <div>
                     <h2>Email</h2>

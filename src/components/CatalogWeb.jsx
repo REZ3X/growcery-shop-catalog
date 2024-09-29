@@ -11,13 +11,17 @@ function CatalogWeb() {
     return (
         <div className="flex flex-col">
             <NavBarContainer />
+            <div id="home"></div>
             <Hero />
             <DescriptionProduct />
+            <div id="catalog"></div>
+            <br /><br /><br /><br />
             <div className="flex items-center text-center mt-4 mb-[-30px] self-center">
                 <h1 className="text-center">Produk Unggulan Kami</h1>
             </div>
             <CarouselProduct />
             <AllCatalog /> {/* Include the AllCatalog component here */}
+            <div id="contact"></div>
             <AllFooter />
         </div>
     )

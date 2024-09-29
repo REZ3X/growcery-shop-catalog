@@ -6,7 +6,7 @@ const items = [
     price: "Rp 100.000",
     imageUrl:
       "/4.png",
-    buttonlink: "https://www.google.com",
+    buttonlink: "https://wa.me/6281327427726?text=Hi!%20Apakah%20produk%201%20masih%20ada?",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const items = [
     price: "Rp 50.000",
     imageUrl:
       "/5.png",
-    buttonlink: "https://www.google.com",
+    buttonlink: "https://wa.me/6281327427726?text=Hi!%20Apakah%20produk%202%20masih%20ada?",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const items = [
     price: "Rp 100.000",
     imageUrl:
       "/6.png",
-    buttonlink: "https://www.google.com",
+    buttonlink: "https://wa.me/6281327427726?text=Hi!%20Apakah%20produk%203%20masih%20ada?",
   },
 ];
 
