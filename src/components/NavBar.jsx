@@ -5,7 +5,6 @@ import {NavbarSimple} from "./NavList";
 function NavBarContainer() {
     return (
         <div>
-            <LogoContainer/>
             <NavbarSimple/>
         </div>
     );

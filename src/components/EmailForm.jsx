@@ -28,7 +28,7 @@ function EmailMessageForm() {
   };
 
   return (
-    <div className="max-w-md mx-auto p-4 w-1/2">
+    <div className="max-w-md mx-auto p-4 w-1/2 font-Lora">
       <h2 className="text-2xl font-bold mb-4">Kirim Email Ke Kami</h2>
       {error && <p className="text-red-500 mb-4">{error}</p>}
       <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
@@ -57,7 +57,7 @@ function EmailMessageForm() {
         />
         <button
           type="submit"
-          className="bg-blue-500 text-white py-2 rounded hover:bg-blue-600"
+          className="bg-[#f6f36c] hover:bg-[#cbc866] text-[#4f523d] py-2 rounded"
         >
           Send Message
         </button>

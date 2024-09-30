@@ -6,17 +6,18 @@ import {
     IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import LogoContainer from "./LogoContainer";
 
 function NavList() {
     return (
-        <ul className="text-black my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+        <ul className="text-black my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 font-Lora">
             <Typography
                 as="li"
                 variant="small"
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <a href="#home" className="flex items-center hover:text-blue-500 transition-colors">
+                <a href="#home" className="flex text-[#46500b] font-bold items-center hover:text-[#aba73c] transition-colors">
                     Beranda
                 </a>
             </Typography>
@@ -26,7 +27,7 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <a href="#catalog" className="flex items-center hover:text-blue-500 transition-colors">
+                <a href="#catalog" className="flex text-[#46500b] font-bold items-center hover:text-[#aba73c] transition-colors">
                     Katalog
                 </a>
             </Typography>
@@ -36,7 +37,7 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <a href="#contact" className="flex items-center hover:text-blue-500 transition-colors">
+                <a href="#contact" className="flex text-[#46500b] font-bold items-center hover:text-[#aba73c] transition-colors">
                     Kontak
                 </a>
             </Typography>
@@ -64,14 +65,7 @@ export function NavbarSimple() {
     return (
         <Navbar className="bg-transparent border-none items-center content-center backdrop-blur-md shadow-md z-50 fixed top-0 w-full mx-auto max-w-screen-xl h-20 px-8 py-3">
             <div className="flex items-center justify-between text-blue-gray-900">
-                <Typography
-                    as="a"
-                    href="#"
-                    variant="h6"
-                    className="mr-4 cursor-pointer py-1.5"
-                >
-                    Material Tailwind
-                </Typography>
+                <LogoContainer/>
 
                 {/* NavList for desktop view */}
                 <div className="hidden lg:block">
