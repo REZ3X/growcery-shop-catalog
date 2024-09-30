@@ -16,6 +16,12 @@ export default {
           "50%": { transform: "translateY(-10px)" },
         },
       },
+      screens: {
+        tnl: {"max": "768px"},
+        pdl: {"max": "426px"},
+        ttl: {"max": "376px"},
+        tdn: {"max": "321px"},
+      },
     },
     animation: {
       jump: "jump 0.5s ease-in-out",

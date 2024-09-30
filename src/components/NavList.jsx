@@ -10,7 +10,7 @@ import LogoContainer from "./LogoContainer";
 
 function NavList() {
     return (
-        <ul className="text-black my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 font-Lora">
+        <ul className="text-black my-2 bg-[#f6f36c] rounded-lg drop-shadow-lg p-5 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 font-Lora">
             <Typography
                 as="li"
                 variant="small"
@@ -63,8 +63,8 @@ export function NavbarSimple() {
     }, []);
 
     return (
-        <Navbar className="bg-transparent border-none items-center content-center backdrop-blur-md shadow-md z-50 fixed top-0 w-full mx-auto max-w-screen-xl h-20 px-8 py-3">
-            <div className="flex items-center justify-between text-blue-gray-900">
+        <Navbar className="bg-transparent border-none items-center content-center backdrop-blur-md shadow-md z-50 fixed top-0 pdl:w-[425px] w-full mx-auto pdl:justify-center max-w-screen-xl h-20 px-8 py-3">
+            <div className="flex items-center justify-between flex-row">
                 <LogoContainer/>
 
                 {/* NavList for desktop view */}
@@ -75,7 +75,7 @@ export function NavbarSimple() {
                 {/* Hamburger menu button for mobile view */}
                 <IconButton
                     variant="text"
-                    className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden text-black"
+                    className="ml-auto pdl:mt-[-33px] h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden text-black"
                     ripple={false}
                     onClick={() => setOpenNav(!openNav)}
                 >

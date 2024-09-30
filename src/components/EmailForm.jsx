@@ -28,7 +28,7 @@ function EmailMessageForm() {
   };
 
   return (
-    <div className="max-w-md mx-auto p-4 w-1/2 font-Lora">
+    <div className="max-w-md mx-auto p-4 w-1/2 pdl:w-full font-Lora">
       <h2 className="text-2xl font-bold mb-4">Kirim Email Ke Kami</h2>
       {error && <p className="text-red-500 mb-4">{error}</p>}
       <form onSubmit={handleSubmit} className="flex flex-col space-y-4">

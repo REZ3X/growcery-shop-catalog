@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
     return (
-        <div className="w-1/2 p-5 flex flex-col gap-3 font-Lora">
+        <div className="w-1/2 pdl:w-full p-5 flex flex-col gap-3 font-Lora">
             <h1 className="text-2xl font-bold">Hubungi Kami</h1>
             <div className="upper_contact flex flex-col gap-2">
                 <div className="telephone">
