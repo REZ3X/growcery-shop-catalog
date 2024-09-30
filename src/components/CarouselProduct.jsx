@@ -74,13 +74,13 @@ function CarouselProduct() {
           onClick={handlePrev}
           className=" mt-[-330px]"
         >
-          <i className="bi bi-arrow-left-circle-fill w-20 text-3xl"></i>
+          <i className="bi bi-arrow-left-circle-fill w-20 text-3xl text-[#f6f36c] drop-shadow-lg hover:text-[#cbc866] "></i>
         </button>
         <button
           onClick={handleNext}
           className=" mt-[-330px]"
         >
-          <i className="bi bi-arrow-right-circle-fill w-20 text-3xl"></i>
+          <i className="bi bi-arrow-right-circle-fill w-20 text-3xl text-[#f6f36c] hover:text-[#cbc866] drop-shadow-lg"></i>
         </button>
       </div>
 

@@ -62,7 +62,7 @@ export function NavbarSimple() {
     }, []);
 
     return (
-        <Navbar className="bg-transparent items-center content-center backdrop-blur-md shadow-md z-50 fixed top-0 w-full mx-auto max-w-screen-xl h-20 px-8 py-3">
+        <Navbar className="bg-transparent border-none items-center content-center backdrop-blur-md shadow-md z-50 fixed top-0 w-full mx-auto max-w-screen-xl h-20 px-8 py-3">
             <div className="flex items-center justify-between text-blue-gray-900">
                 <Typography
                     as="a"

@@ -6,6 +6,10 @@ export default {
       backgroundImage: {
         'placeholder': "url('https://www.bu.edu/globalprograms/files/2015/05/banner-placeholder.png')",
       },
+      fontFamily: {
+        'Lora': ['Lora', 'serif'],
+        'climate_crisis': ['Climate Crisis', 'sans-serif'],
+      },
       keyframes: {
         jump: {
           "0%, 100%": { transform: "translateY(0)" },

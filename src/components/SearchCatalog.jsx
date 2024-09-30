@@ -16,7 +16,7 @@ function SearchCatalog({ onSearch }) {
         value={searchTerm}
         onChange={handleSearch}
         placeholder="Cari produk..."
-        className="w-full p-2 border border-gray-300 rounded-lg"
+        className="w-full p-2 border bg-[#ecf4bb] border-gray-300 rounded-lg font-Lora"
       />
     </div>
   );
