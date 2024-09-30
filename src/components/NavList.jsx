@@ -63,7 +63,7 @@ export function NavbarSimple() {
     }, []);
 
     return (
-        <Navbar className="bg-transparent border-none items-center content-center backdrop-blur-md shadow-md z-50 fixed top-0 pdl:w-[425px] w-full mx-auto pdl:justify-center max-w-screen-xl h-20 px-8 py-3">
+        <Navbar className="bg-transparent border-none items-center content-center backdrop-blur-md shadow-md z-50 ttl:w-[375px] tdn:w-[320px] fixed top-0 pdl:w-[425px] w-full mx-auto pdl:justify-center max-w-screen-xl h-20 px-8 py-3">
             <div className="flex items-center justify-between flex-row">
                 <LogoContainer/>
 

@@ -21,7 +21,7 @@ function CatalogWeb() {
             </div>
             <CarouselProduct />
             <div className="flex items-center justify-center text-center w-full">
-                <p className="text-center text-sm mt-1 font-Lora text-[#46500b]">*Klik untuk info lebih lanjut*</p>
+                <p className="text-center text-sm mt-1 font-Lora text-[#46500b]">*Klik gambar untuk info lebih lanjut*</p>
             </div>
             <AllCatalog /> {/* Include the AllCatalog component here */}
             <div id="contact"></div>

@@ -6,7 +6,7 @@ function CatalogList({ products }) {
       {products.map((item) => (
         <div
           key={item.id}
-          className="bg-[#dbd876] pdl:w-72 shadow-md rounded-lg p-4 flex flex-col justify-between font-Lora"
+          className="bg-[#dbd876] pdl:w-72 tdn:w-60 shadow-md rounded-lg p-4 flex flex-col justify-between font-Lora"
         >
           <img
             src={item.imageUrl}
