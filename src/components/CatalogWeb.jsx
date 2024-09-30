@@ -1,6 +1,6 @@
 import React from "react";
 import NavBarContainer from "./NavBar";
-import Hero from "./hero";
+import Hero from "./Hero";
 import DescriptionProduct from "./descriptionProduct";
 import CarouselProduct from "./carouselProduct";
 import AllCatalog from "./allCatalog"; // Import AllCatalog
