@@ -1,9 +1,9 @@
 import React from "react";
 import NavBarContainer from "./NavBar";
 import Hero from "./Hero";
-import DescriptionProduct from "./descriptionProduct";
-import CarouselProduct from "./carouselProduct";
-import AllCatalog from "./allCatalog"; // Import AllCatalog
+import DescriptionProduct from "./DescriptionProduct";
+import CarouselProduct from "./CarouselProduct";
+import AllCatalog from "./AllCatalog"; // Import AllCatalog
 import AllFooter from "./AllFooter";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
