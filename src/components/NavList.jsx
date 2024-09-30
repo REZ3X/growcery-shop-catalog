@@ -10,7 +10,7 @@ import LogoContainer from "./LogoContainer";
 
 function NavList() {
     return (
-        <ul className="text-black my-2 bg-[#f6f36c] rounded-lg drop-shadow-lg p-5 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 font-Lora">
+        <ul className="text-black my-2 pdl:bg-[#f6f36c] rounded-lg drop-shadow-lg p-5 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 font-Lora">
             <Typography
                 as="li"
                 variant="small"
