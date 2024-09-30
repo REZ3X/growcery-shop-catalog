@@ -34,7 +34,7 @@ function EmailMessageForm() {
       <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
         <input
           type="text"
-          placeholder="Your Name"
+          placeholder="Nama"
           value={name}
           onChange={(e) => setName(e.target.value)}
           className="border border-gray-300 p-2 rounded"
@@ -42,14 +42,14 @@ function EmailMessageForm() {
         />
         <input
           type="email"
-          placeholder="Your Email"
+          placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           className="border border-gray-300 p-2 rounded"
           required
         />
         <textarea
-          placeholder="Your Message"
+          placeholder="Pesan"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           className="border border-gray-300 p-2 rounded h-32"

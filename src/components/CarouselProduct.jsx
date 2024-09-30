@@ -86,26 +86,34 @@ function CarouselProduct() {
 
       {/* Description Window */}
       {isDescriptionVisible && selectedItem && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-          <div className="bg-white p-6 rounded-lg max-w-md w-full relative z-60">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center font-Lora z-50">
+          <div className="p-6 rounded-lg max-w-md w-full relative bg-[#dbd876] z-60">
+            {/* Add product image at the top */}
+            <img
+              src={selectedItem.imageUrl}
+              alt={selectedItem.title}
+              className="w-full h-48 object-cover rounded-md mb-4"
+            />
             <h3 className="text-2xl font-bold mb-4">{selectedItem.title}</h3>
             <p className="text-gray-700">{selectedItem.description}</p>
             <p className="text-gray-900 font-bold">{selectedItem.price}</p>
-            <a
-              href={selectedItem.buttonlink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 block text-center flex flex-row items-center justify-center gap-2"
-            >
-              <i className="bi bi-whatsapp"></i>
-              <span>Beli Sekarang</span>
-            </a>
-            <button
-              onClick={handleCloseDescription}
-              className="mt-2 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
-            >
-              Close
-            </button>
+            <div className="flex flex-row-reverse items-center justify-center gap-1 mt-2">
+              <a
+                href={selectedItem.buttonlink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-3/4 bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 block text-center flex flex-row items-center justify-center gap-2"
+              >
+                <i className="bi bi-whatsapp"></i>
+                <span>Beli Sekarang</span>
+              </a>
+              <button
+                onClick={handleCloseDescription}
+                className="w-1/4 py-2 px-4 rounded bg-[#f6f36c] hover:bg-[#cbc866] text-[#4f523d]"
+              >
+                Kembali
+              </button>
+            </div>
           </div>
         </div>
       )}

@@ -11,7 +11,7 @@ function Contact() {
                 </div>
                 <div>
                     <h2 className="font-bold">Alamat</h2>
-                    <p>Jl. Balirejo UH2 No.549, RT17, RW5, Mulamuju, Umbulharjo, Yogyakarta, Daerah Istimewa Yogyakarta, 55165</p>
+                    <p>Jl. Balirejo UH2 No.549, RT17, RW5, Mujamuju, Umbulharjo, Yogyakarta, Daerah Istimewa Yogyakarta, 55165</p>
                 </div>
                 <div>
                     <h2 className="font-bold">Email</h2>

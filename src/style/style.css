@@ -53,6 +53,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.link-must {
+  font-weight: bold;
+}
+
 .link-must:hover {
   text-decoration: underline;
 }
