@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "./footer";
-import Contact from "./contact";
+import Footer from "./Footer";
+import Contact from "./Contact";
 import EmailMessageForm from "./EmailForm";
 
 function AllFooter() {
