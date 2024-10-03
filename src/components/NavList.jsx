@@ -63,7 +63,7 @@ export function NavbarSimple() {
     }, []);
 
     return (
-        <Navbar className="bg-transparent border-none items-center content-center backdrop-blur-md shadow-md z-50 fixed top-0 pdl:max-w-[425px] w-full mx-auto pdl:justify-center max-w-screen-xl h-20 px-8 py-3">
+        <Navbar className="tnl:max-w-[768px] bg-transparent border-none items-center content-center backdrop-blur-md shadow-md z-50 fixed top-0 pdl:max-w-[425px] w-full mx-auto pdl:justify-center max-w-screen-xl h-20 px-8 py-3">
             <div className="flex items-center justify-between flex-row">
                 <LogoContainer/>
 
@@ -75,7 +75,7 @@ export function NavbarSimple() {
                 {/* Hamburger menu button for mobile view */}
                 <IconButton
                     variant="text"
-                    className="ml-auto pdl:mt-[-33px] h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden text-black"
+                    className="ml-auto pdl:mt-[-33px] tnl:mt-[-33px] h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden text-black"
                     ripple={false}
                     onClick={() => setOpenNav(!openNav)}
                 >

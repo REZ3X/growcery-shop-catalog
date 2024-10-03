@@ -55,7 +55,7 @@ function CarouselProduct() {
   };
 
   return (
-    <div className="relative w-full pdl:p-5 pdl:mx-auto pdl:ml-none ml-[350px] max-w-xl mt-8">
+    <div className="relative w-full pdl:p-5 pdl:mx-auto pdl:ml-none ml-[350px] tnl:ml-[100px] max-w-xl mt-8">
       {/* Set explicit height for the container and make it clickable */}
       <div className="relative h-64 w-full overflow-hidden">
         {items.map((item, index) => (

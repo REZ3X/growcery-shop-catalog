@@ -17,10 +17,11 @@ export default {
         },
       },
       screens: {
-        tnl: {"max": "768px"},
+        tnl: {"max": "769px"},
         pdl: {"max": "426px"},
         ttl: {"max": "376px"},
         tdn: {"max": "321px"},
+        dsx: {"min": "770px"},
       },
     },
     animation: {
